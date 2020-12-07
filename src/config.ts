@@ -4,7 +4,7 @@ import { filterBlock, sortBlock } from 'ptnl-constructor-sdk/config-blocks'
 import { EBlockKey, EViewOption } from "./enum";
 
 
-const pointerSylte = [
+const pointerStyle = [
     ['circle', 'Круг', 'Circle'],
     ['triangle', 'Треугольник', 'Triangle'],
     ['rect', 'Прямоугольник', 'rect'],
@@ -159,7 +159,7 @@ export const config: IWidgetConfig = {
                 ru: "Стиль точки",
                 en: "Pointer style"
             },
-            options: pointerSylte.map(item => {
+            options: pointerStyle.map(item => {
                 const [value, ru, en] = item;
 
                 return {
@@ -170,7 +170,7 @@ export const config: IWidgetConfig = {
                     value
                 }
             }),
-            defaultValue: pointerSylte[0][0]
+            defaultValue: pointerStyle[0][0]
         }
     ]
 };

@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "@types/chart.js": "^2.9.28",
-    "ptnl-constructor-sdk": "^0.7.36"
+    "ptnl-constructor-sdk": "^0.7.37"
   }
 }
